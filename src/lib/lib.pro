@@ -10,3 +10,4 @@ HEADERS += \
     Notifications
 
 CONFIG(notifications): include(notifications/notifications.pri)
+CONFIG(qml): include(qml/qml.pri)
