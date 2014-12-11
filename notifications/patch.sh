@@ -1,8 +1,8 @@
 #!/bin/sh
 
-cp $PWD/../../3rdparty/nemo-qml-plugin-notifications/src/org.freedesktop.Notifications.xml $PWD
-cp $PWD/../../3rdparty/nemo-qml-plugin-notifications/src/notification.h $PWD
-cp $PWD/../../3rdparty/nemo-qml-plugin-notifications/src/notification.cpp $PWD
+cp $PWD/../3rdparty/nemo-qml-plugin-notifications/src/org.freedesktop.Notifications.xml $PWD
+cp $PWD/../3rdparty/nemo-qml-plugin-notifications/src/notification.h $PWD
+cp $PWD/../3rdparty/nemo-qml-plugin-notifications/src/notification.cpp $PWD
 
 # Use NEMOMW_EXPORT macro
 sed -i s/#define\ NOTIFICATION_H/#define\ NOTIFICATION_H\\n\\n#include\ \"nemomw_global.h\"/g notification.h

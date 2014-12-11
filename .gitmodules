@@ -1,3 +1,3 @@
-[submodule "src/3rdparty/nemo-qml-plugin-notifications"]
-	path = src/3rdparty/nemo-qml-plugin-notifications
+[submodule "3rdparty/nemo-qml-plugin-notifications"]
+	path = 3rdparty/nemo-qml-plugin-notifications
 	url = https://github.com/SfietKonstantin/nemo-qml-plugin-notifications.git
