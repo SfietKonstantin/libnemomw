@@ -2,6 +2,7 @@
 {
     TEMPLATE = lib
     TARGET = nemomw
+    QT -= gui
 
     CONFIG += staticlib
     
