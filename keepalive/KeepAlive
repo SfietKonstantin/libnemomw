@@ -1,0 +1,4 @@
+#include <backgroundactivity.h>
+#include <displayblanking.h>
+#include <heartbeat.h>
+#include <declarativebackgroundactivity.h>

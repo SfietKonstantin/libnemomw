@@ -1,3 +1,15 @@
 [submodule "3rdparty/nemo-qml-plugin-notifications"]
 	path = 3rdparty/nemo-qml-plugin-notifications
 	url = https://github.com/SfietKonstantin/nemo-qml-plugin-notifications.git
+[submodule "3rdparty/nemo-keepalive"]
+	path = 3rdparty/nemo-keepalive
+	url = https://github.com/nemomobile/nemo-keepalive.git
+[submodule "3rdparty/libdsme"]
+	path = 3rdparty/libdsme
+	url = https://github.com/nemomobile/libdsme.git
+[submodule "3rdparty/libiphb"]
+	path = 3rdparty/libiphb
+	url = https://github.com/nemomobile/libiphb.git
+[submodule "3rdparty/mce-dev"]
+	path = 3rdparty/mce-dev
+	url = https://github.com/nemomobile/mce-dev.git
