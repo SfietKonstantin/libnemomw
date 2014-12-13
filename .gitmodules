@@ -13,3 +13,6 @@
 [submodule "3rdparty/mce-dev"]
 	path = 3rdparty/mce-dev
 	url = https://github.com/nemomobile/mce-dev.git
+[submodule "3rdparty/libprofile-qt"]
+	path = 3rdparty/libprofile-qt
+	url = https://github.com/nemomobile/libprofile-qt.git

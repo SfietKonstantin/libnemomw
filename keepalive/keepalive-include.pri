@@ -11,5 +11,8 @@
         INCLUDEPATH += /usr/include/keepalive
     }
     
-    HEADERS += $$PWD/KeepAlive
+    HEADERS += $$PWD/BackgroundActivity \
+        $$PWD/BackgroundJob \
+        $$PWD/DisplayBlanking \
+        $$PWD/KeepAlive
 } 
