@@ -1,5 +1,5 @@
-!contains(included_modules, notifications-include)
-{
+!contains(included_modules, notifications-include) {
+    included_modules += notifications-include
     include(../nemomw-include.pri)
     QT += dbus
 

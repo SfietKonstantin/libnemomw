@@ -1,5 +1,5 @@
-!contains(included_modules, notifications)
-{
+!contains(included_modules, notifications) {
+    included_modules += notifications
     # Notifications is a patched API, so both harbour and non-harbour use the same API
     system($$PWD/patch.sh)
 

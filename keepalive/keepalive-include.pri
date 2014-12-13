@@ -1,5 +1,5 @@
-!contains(included_modules, keepalive-include)
-{
+!contains(included_modules, keepalive-include) {
+    included_modules += keepalive-include
     include(../nemomw-include.pri)
     QT += dbus
 
@@ -8,7 +8,8 @@
     CONFIG(harbour) {
         INCLUDEPATH += $$PWD/../3rdparty/libiphb/src/
     } else {
-        INCLUDEPATH += /usr/include/keepalive
+        CONFIG += link_pkgconfig
+        PKGCONFIG += keepalive
     }
     
     HEADERS += $$PWD/BackgroundActivity \

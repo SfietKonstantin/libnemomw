@@ -1,5 +1,5 @@
-!contains(included_modules, nemomw-dynamic)
-{
+!contains(included_modules, nemomw-dynamic) {
+    included_modules += nemomw-dynamic
     TEMPLATE = lib
     TARGET = nemomw
     QT -= gui

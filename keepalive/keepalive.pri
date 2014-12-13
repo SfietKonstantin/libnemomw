@@ -1,5 +1,5 @@
-!contains(included_modules, keepalive)
-{
+!contains(included_modules, keepalive) {
+    included_modules += keepalive
     CONFIG(harbour) {
         system($$PWD/patch.sh)
 
