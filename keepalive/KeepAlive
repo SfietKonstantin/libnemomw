@@ -1,3 +1,2 @@
-#include <backgroundactivity.h>
-#include <displayblanking.h>
 #include <declarativebackgroundactivity.h>
+typedef DeclarativeKeepAlive KeepAlive;

@@ -1,0 +1,2 @@
+#include <declarativebackgroundactivity.h>
+typedef DeclarativeBackgroundJob BackgroundJob;
