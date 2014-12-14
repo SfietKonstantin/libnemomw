@@ -16,3 +16,6 @@
 [submodule "3rdparty/libprofile-qt"]
 	path = 3rdparty/libprofile-qt
 	url = https://github.com/nemomobile/libprofile-qt.git
+[submodule "3rdparty/libconnman-qt"]
+	path = 3rdparty/libconnman-qt
+	url = https://github.com/nemomobile/libconnman-qt.git
