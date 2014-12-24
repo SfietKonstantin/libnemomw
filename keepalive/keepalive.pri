@@ -31,9 +31,6 @@
             $$PWD/displayblanking_p.cpp  \
             $$PWD/heartbeat.cpp \
             $$PWD/mceiface.cpp
-    } else {
-        CONFIG += build_pkgconfig
-        PKGCONFIG += keepalive
     }
     # keepalive-qml
     system($$PWD/patch-qml.sh)

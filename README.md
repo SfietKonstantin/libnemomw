@@ -93,6 +93,7 @@ The [phonebot](https://github.com/SfietKonstantin/phonebot) project uses `libnem
 - [keepalive](https://github.com/nemomobile/nemo-keepalive/)
 - [notifications](https://github.com/SfietKonstantin/nemo-qml-plugin-notifications/), a slighty customized version that is always statically built inside `libnemomw`.
 - [profile](https://github.com/nemomobile/libprofile-qt/)
+- [connman-qt](https://github.com/nemomobile/libconnman-qt/)
 
 ## License
 

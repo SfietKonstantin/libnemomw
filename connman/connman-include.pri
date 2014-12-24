@@ -5,6 +5,11 @@
 
     INCLUDEPATH += $$PWD
     
+    !CONFIG(harbour) {
+        CONFIG += link_pkgconfig
+        PKGCONFIG += connman-qt5
+    }
+    
     HEADERS += $$PWD/ClockModel \
         $$PWD/ConnmanNetworkProxyFactory \
         $$PWD/Counter \

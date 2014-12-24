@@ -38,9 +38,6 @@
             $$PWD/connman_manager.xml \
             $$PWD/connman_session.xml \
             $$PWD/connman_notification.xml
-    } else {
-        CONFIG += build_pkgconfig
-        PKGCONFIG += connman-qt5
     }
     # connman-qml
     # system($$PWD/patch-qml.sh)
