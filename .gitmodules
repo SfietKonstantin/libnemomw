@@ -19,3 +19,6 @@
 [submodule "3rdparty/libconnman-qt"]
 	path = 3rdparty/libconnman-qt
 	url = https://github.com/nemomobile/libconnman-qt.git
+[submodule "3rdparty/mlite"]
+	path = 3rdparty/mlite
+	url = https://github.com/nemomobile/mlite.git
