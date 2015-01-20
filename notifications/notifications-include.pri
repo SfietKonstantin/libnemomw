@@ -5,5 +5,5 @@
 
     INCLUDEPATH += $$PWD
     
-    HEADERS += $$PWD/Notifications
+    HEADERS += $$PWD/Notification
 } 
