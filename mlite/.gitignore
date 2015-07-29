@@ -1,9 +1,0 @@
-*.xml
-*.h
-*.cpp 
-MDConfGroup
-MDesktopEntry
-MGConfItem
-MNotification
-MNotificationGroup
-MRemoteAction
