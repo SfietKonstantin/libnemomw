@@ -1,15 +1,10 @@
+include(connman-deps.pri)
 !contains(included_modules, connman-include) {
     included_modules += connman-include
     include(../nemomw-include.pri)
-    QT += dbus
 
     INCLUDEPATH += $$PWD
-    
-    !CONFIG(harbour) {
-        CONFIG += link_pkgconfig
-        PKGCONFIG += connman-qt5
-    }
-    
+        
     HEADERS += $$PWD/ClockModel \
         $$PWD/ConnmanNetworkProxyFactory \
         $$PWD/Counter \

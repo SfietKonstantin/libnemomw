@@ -1,0 +1,8 @@
+*.xml
+*.h
+*.cpp 
+MLocale
+MDebug
+MLocaleBuckets
+*.qm
+zone.alias.fallback

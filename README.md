@@ -94,6 +94,11 @@ The [phonebot](https://github.com/SfietKonstantin/phonebot) project uses `libnem
 - [notifications](https://github.com/SfietKonstantin/nemo-qml-plugin-notifications/), a slighty customized version that is always statically built inside `libnemomw`.
 - [profile](https://github.com/nemomobile/libprofile-qt/)
 - [connman-qt](https://github.com/nemomobile/libconnman-qt/)
+- [mlocale](https://github.com/nemomobile/libmlocale), that is built without ICU support
+- [QtContacts](https://git.merproject.org/mer-core/qtpim)
+- [QtVersit](https://git.merproject.org/mer-core/qtpim)
+- [libcontacts](https://github.com/nemomobile/libcontacts/)
+- [comhistory](https://git.merproject.org/mer-core/libcommhistory/)
 
 ## License
 

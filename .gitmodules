@@ -19,3 +19,18 @@
 [submodule "3rdparty/libconnman-qt"]
 	path = 3rdparty/libconnman-qt
 	url = https://github.com/nemomobile/libconnman-qt.git
+[submodule "3rdparty/libcommhistory"]
+	path = 3rdparty/libcommhistory
+	url = https://git.merproject.org/mer-core/libcommhistory.git
+[submodule "3rdparty/qtpim"]
+	path = 3rdparty/qtpim
+	url = https://git.merproject.org/mer-core/qtpim.git
+[submodule "3rdparty/qtcontacts-sqlite"]
+	path = 3rdparty/qtcontacts-sqlite
+	url = https://github.com/nemomobile/qtcontacts-sqlite.git
+[submodule "3rdparty/libcontacts"]
+	path = 3rdparty/libcontacts
+	url = https://github.com/nemomobile/libcontacts.git
+[submodule "3rdparty/libmlocale"]
+	path = 3rdparty/libmlocale
+	url = https://github.com/nemomobile/libmlocale.git
